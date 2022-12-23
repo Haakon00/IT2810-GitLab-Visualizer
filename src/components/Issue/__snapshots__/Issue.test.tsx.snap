@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Snapshot test of Issue card 1`] = `
+<div
+  className="card w-96 bg-[#FEF08A] shadow-xl text-center text-black my-3 text-base"
+>
+  <div
+    className="mt-1 mx-2"
+    data-testid="title"
+  >
+    tittel
+  </div>
+  <div
+    className="font-normal"
+    data-testid="status"
+  >
+    Status: 
+    closed
+  </div>
+  <div
+    className="flex flex-col font-normal items-center"
+    data-testid="responsible"
+  >
+    Ansvarlig: 
+    Alfonzo
+    <img
+      alt="assignee avatar"
+      className="w-1/12 object-cover my-4"
+      src="test.com"
+    />
+  </div>
+</div>
+`;
